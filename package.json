@@ -1,0 +1,20 @@
+{
+  "name": "users-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NycolasDarosci/user-typescript-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NycolasDarosci/user-typescript-api/issues"
+  },
+  "homepage": "https://github.com/NycolasDarosci/user-typescript-api#readme"
+}
