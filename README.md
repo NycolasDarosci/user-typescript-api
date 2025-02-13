@@ -22,3 +22,21 @@ ruleset and patterns for application
 generate .eslintrc configuration file, eslint is a static code analysis tool
 It helps catch errors, enforce coding standards, and improve code quality automatically.
 ````npx eslint --init````
+
+install express
+```npm install express```
+
+install types definition for typescript when using express and node
+```npm install @types/express @types/node --save-dev```
+
+### Configuration package.json
+
+
+```"node:dev": "nodemon --exec npx ts-node src/index.ts"```
+
+- `nodemon` restarts node server automatically when there files changes are detected;
+- `--exec` flag tells nodemon to execute a custom command when restarting the application.
+This case is `npx ts-node`;
+- `npx ts-node` npx runs ts-node without globally installing it.
+`ts-node` is a TypeScript execution environment for Node.js;
+- `src/index.ts` entry point of the application. It tells `ts-node` to run it as main file.
