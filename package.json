@@ -1,10 +1,10 @@
 {
   "name": "users-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Users-typescript-API",
   "main": "index.js",
   "scripts": {
-    "start:dev": "nodemon main.ts"
+    "node:dev": "nodemon --exec npx ts-node src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,16 @@
   "bugs": {
     "url": "https://github.com/NycolasDarosci/user-typescript-api/issues"
   },
-  "homepage": "https://github.com/NycolasDarosci/user-typescript-api#readme"
+  "homepage": "https://github.com/NycolasDarosci/user-typescript-api#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.20.0",
+    "eslint": "^9.20.1",
+    "eslint-config-prettier": "^10.0.1",
+    "globals": "^15.15.0",
+    "nodemon": "^3.1.9",
+    "prettier": "^3.5.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.24.0"
+  }
 }
